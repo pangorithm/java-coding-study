@@ -1,4 +1,4 @@
-package com.coding.study.chapter01.p01countDuplicateCharacter;
+package com.coding.study.chapter01.p01;
 
 import java.util.HashMap;
 import java.util.Map;
