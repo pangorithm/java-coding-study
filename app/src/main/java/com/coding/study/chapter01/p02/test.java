@@ -3,6 +3,9 @@ package com.coding.study.chapter01.p02;
 import java.util.Scanner;
 
 public class test {
+
+  private static final int EXTENDED_ASCII_CODE = 256;
+
   public static void main(String[] args) {
     Scanner scanner = new java.util.Scanner(System.in);
     System.out.println("문자열을 입력하세요");
@@ -13,8 +16,6 @@ public class test {
 
     scanner.close();
   }
-
-  private static final int EXTENDED_ASCII_CODE = 256;
 
   static char firstNonRepeatedCharacter(String str) {
     int[] flags = new int[EXTENDED_ASCII_CODE];
