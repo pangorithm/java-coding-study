@@ -1,4 +1,4 @@
-package coding.workbook.chapter01.p01;
+package coding.skill.chapter01.p01;
 
 import java.util.HashMap;
 import java.util.Map;

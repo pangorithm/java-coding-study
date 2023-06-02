@@ -1,4 +1,4 @@
-package coding.workbook.chapter01.p02;
+package coding.skill.chapter01.p02;
 
 import java.util.Scanner;
 
