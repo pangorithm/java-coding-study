@@ -7,15 +7,14 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Main {
-  public static void main(String[] str) {
-    try (
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
+  public static void main(String[] str) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    ////////////////////////////////////////////////////////////////////////////
 
-    } catch (IOException ioE) {
-      // TODO: handle exception
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
+
+    ////////////////////////////////////////////////////////////////////////////
+    br.close();
+    bw.close();
   }
 }
